@@ -4,7 +4,7 @@ FROM inventory
 WHERE film_id = (
 	SELECT film_id
     FROM film
-    WHERE title = 'Hunchback Imposible');
+    WHERE title = 'Hunchback Impossible');
 
 -- 2 Films longer than the average length
 
